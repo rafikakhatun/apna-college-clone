@@ -45,7 +45,7 @@ function Navbar() {
 
 
 
-      {/* mobile menu 
+      {/* mobile menu */}
       {isOpen  && (<ul className='flex flex-col w-full h-screen justify-center items-center space-y-1 md:hidden lg:hidden'>
 
         <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>Our Result</li>
@@ -57,7 +57,6 @@ function Navbar() {
 
 
       </ul>)}
-      */}
       
 
 
