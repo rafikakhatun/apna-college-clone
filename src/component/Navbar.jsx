@@ -1,10 +1,23 @@
+import { AlignJustify, X } from 'lucide-react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+
+  // responsive navbar useState
+
+  const [isOpen, setIsOpen] = useState(false)
+
+
+
+
+
+
+
   return (
     <>
       <section className='py-2 px-6 shadow w-full'>
-        <nav className='flex justify-between items-center px-6'>
+        <nav className='flex justify-between items-center px-1 md:px-6'>
           <img className="w-26 h-14" src="src/assets/apna logo.png" alt="" />
 
           {/* Desktop Menu */}
@@ -16,20 +29,38 @@ function Navbar() {
             <li><Link to="/login">Log in</Link></li>
             <li className='px-3 py-1 border-2 border-[#6674cc] text-[#6674cc] rounded-md'><Link to="/signup">Sign up</Link></li>
           </ul>
+          {/* hamburger toggle icon */}
 
-          <ul className='flex md:hidden lg:hidden'>
-            
-              <li className=''>Our Result</li>
-              <li className=''>New Sigma 8.0</li>
-              <li className=''>DSA Sheet</li>
-              <li className=''>New Courses</li>
-              <li className=''>Log in</li>
-              <li className=''>Sign up</li>
-          
+          <div className='block md:hidden lg:hidden' >
+            <button  onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? <X size={36} className='text-gray-500' /> : <AlignJustify size={36} className='text-gray-500' />}
 
-          </ul>
+            </button>
+          </div>
+
         </nav>
       </section>
+
+
+
+
+
+      {/* mobile menu 
+      {isOpen  && (<ul className='flex flex-col w-full h-screen justify-center items-center space-y-1 md:hidden lg:hidden'>
+
+        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>Our Result</li>
+        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>New Sigma 8.0</li>
+        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>DSA Sheet</li>
+        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>New Courses</li>
+        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>Log in</li>
+        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>Sign up</li>
+
+
+      </ul>)}
+      */}
+      
+
+
     </>
   );
 }
