@@ -3,6 +3,7 @@ import './App.css'
 import CodingCommunity from './component/CodingCommunity';
 import Hero from './component/Hero';
 import Navbar from './component/Navbar';
+import NewPlacementSection from './component/NewPlacementSection';
 
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
     <Navbar></Navbar>
     <Hero></Hero>
     <CodingCommunity></CodingCommunity>
+    <NewPlacementSection></NewPlacementSection>
    
       
     </>
