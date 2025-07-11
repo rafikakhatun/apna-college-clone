@@ -5,6 +5,7 @@ import Hero from './component/Hero';
 import JobCompanies from './component/JobCompanies';
 import Navbar from './component/Navbar';
 import NewPlacementSection from './component/NewPlacementSection';
+import SelectedStudent from './component/SeclectedStudent';
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
     <CodingCommunity></CodingCommunity>
     <NewPlacementSection></NewPlacementSection>
     <JobCompanies></JobCompanies>
+    <SelectedStudent></SelectedStudent>
    
       
     </>

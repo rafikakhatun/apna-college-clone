@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Anusha Reddy",
+    "degree": "Btech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Microsoft",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 1.jpg",
+    "companyLogo": "microsoft logo.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rimi roy",
+    "degree": "Mtech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Google",
+    "stipend": "Rs 5lakh+/month",
+    "profileImage": "apna college 2.jpg",
+    "companyLogo": "google logo.png"
+  },
+  {
+    "id": 3,
+    "name": "Marry Adobe",
+    "degree": "MCA",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Amazon",
+    "stipend": "Rs 3.7k+/month",
+    "profileImage": "apna college 3.jpg",
+    "companyLogo": "amazonlogo.png"
+  },
+  {
+    "id": 4,
+    "name": "Ananya tales",
+    "degree": "Btech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Samsung",
+    "stipend": "Rs 60k/month",
+    "profileImage": "apna college 4.avif",
+    "companyLogo": "Samsung-Logo.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Nayantara knock",
+    "degree": "Mtech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Paypal",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 5.jpg",
+    "companyLogo": "paypal logo.png"
+  },
+  {
+    "id": 6,
+    "name": "Zaira Zenith",
+    "degree": "BCA",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "JPMorgan",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 5.webp",
+    "companyLogo": "jpmorgan logo.png"
+  },
+  {
+    "id": 7,
+    "name": "Durba Durphan",
+    "degree": "Mtech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Dell",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 6.webp",
+    "companyLogo": "dell logo.png"
+  },
+  {
+    "id": 8,
+    "name": "Tuli canvas",
+    "degree": "MCA",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "EY",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 7.jpeg",
+    "companyLogo": "ey logo.png"
+  },
+  {
+    "id": 9,
+    "name": "Brinda roy",
+    "degree": "Btech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Goldman Sachs",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 8.jpeg",
+    "companyLogo": "Goldman-Sachs-Logo.png"
+  },
+  {
+    "id": 10,
+    "name": "Arjun Journey",
+    "degree": "BCA",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Hitachi",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 9.jpeg",
+    "companyLogo": "HITACHI LOGO.png"
+  },
+  {
+    "id": 11,
+    "name": "Kabir Khan",
+    "degree": "Btech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "IBM",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 10.jpeg",
+    "companyLogo": "ibm logo.png"
+  },
+  {
+    "id": 12,
+    "name": "Anirban Anchal",
+    "degree": "MCA",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Mercedes",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 11.jpeg",
+    "companyLogo": "mercedes logo.png"
+  },
+  {
+    "id": 13,
+    "name": "raiyan roy",
+    "degree": "Btech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "NetApp",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 12.jpeg",
+    "companyLogo": "netapp logo.png"
+  },
+  {
+    "id": 14,
+    "name": "Ishan gupta",
+    "degree": "MCA",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Salesforce",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 13.jpeg",
+    "companyLogo": "salesforce logo.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Shingam Reddy",
+    "degree": "Mtech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Google",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 14.jpeg",
+    "companyLogo": "google logo.png"
+  },
+  {
+    "id": 16,
+    "name": "Elon Musk",
+    "degree": "Mtech",
+    "branch": "CSE",
+    "batch": "Alpha Student",
+    "company": "Paypal",
+    "stipend": "Rs 1lakh+/month",
+    "profileImage": "apna college 15.jpeg",
+    "companyLogo": "paypal logo.png"
+  }
+]
