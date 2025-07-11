@@ -5,7 +5,7 @@
     "degree": "Btech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Microsoft",
+    "company": "Microsoft (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 1.jpg",
     "companyLogo": "microsoft logo.jpg"
@@ -16,7 +16,7 @@
     "degree": "Mtech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Google",
+    "company": "Google (intern)",
     "stipend": "Rs 5lakh+/month",
     "profileImage": "apna college 2.jpg",
     "companyLogo": "google logo.png"
@@ -27,7 +27,7 @@
     "degree": "MCA",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Amazon",
+    "company": "Amazon (intern)",
     "stipend": "Rs 3.7k+/month",
     "profileImage": "apna college 3.jpg",
     "companyLogo": "amazonlogo.png"
@@ -38,7 +38,7 @@
     "degree": "Btech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Samsung",
+    "company": "Samsung (intern)",
     "stipend": "Rs 60k/month",
     "profileImage": "apna college 4.avif",
     "companyLogo": "Samsung-Logo.jpg"
@@ -49,7 +49,7 @@
     "degree": "Mtech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Paypal",
+    "company": "Paypal (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 5.jpg",
     "companyLogo": "paypal logo.png"
@@ -60,7 +60,7 @@
     "degree": "BCA",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "JPMorgan",
+    "company": "JPMorgan (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 5.webp",
     "companyLogo": "jpmorgan logo.png"
@@ -71,7 +71,7 @@
     "degree": "Mtech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Dell",
+    "company": "Dell (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 6.webp",
     "companyLogo": "dell logo.png"
@@ -82,7 +82,7 @@
     "degree": "MCA",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "EY",
+    "company": "EY (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 7.jpeg",
     "companyLogo": "ey logo.png"
@@ -93,7 +93,7 @@
     "degree": "Btech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Goldman Sachs",
+    "company": "Goldman Sachs (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 8.jpeg",
     "companyLogo": "Goldman-Sachs-Logo.png"
@@ -104,7 +104,7 @@
     "degree": "BCA",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Hitachi",
+    "company": "Hitachi (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 9.jpeg",
     "companyLogo": "HITACHI LOGO.png"
@@ -115,7 +115,7 @@
     "degree": "Btech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "IBM",
+    "company": "IBM (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 10.jpeg",
     "companyLogo": "ibm logo.png"
@@ -126,7 +126,7 @@
     "degree": "MCA",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Mercedes",
+    "company": "Mercedes (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 11.jpeg",
     "companyLogo": "mercedes logo.png"
@@ -137,7 +137,7 @@
     "degree": "Btech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "NetApp",
+    "company": "NetApp (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 12.jpeg",
     "companyLogo": "netapp logo.png"
@@ -148,7 +148,7 @@
     "degree": "MCA",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Salesforce",
+    "company": "Salesforce (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 13.jpeg",
     "companyLogo": "salesforce logo.jpg"
@@ -159,7 +159,7 @@
     "degree": "Mtech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Google",
+    "company": "Google (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 14.jpeg",
     "companyLogo": "google logo.png"
@@ -170,7 +170,7 @@
     "degree": "Mtech",
     "branch": "CSE",
     "batch": "Alpha Student",
-    "company": "Paypal",
+    "company": "Paypal (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 15.jpeg",
     "companyLogo": "paypal logo.png"
