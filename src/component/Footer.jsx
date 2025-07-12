@@ -1,10 +1,10 @@
-import { ChevronRight,  Mail, Phone } from "lucide-react";
+import { ChevronRight, Mail, Phone } from "lucide-react";
 import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-  FaYoutube
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin,
+    FaTwitter,
+    FaYoutube
 } from "react-icons/fa";
 
 import apnaCollegeLogo from "../assets/apna logo.png"
@@ -13,8 +13,8 @@ function Footer() {
     return (
         <>
 
-            <section className="w-full py-20 px-">
-                <footer className="flex flex-col md:flex-row justify-around items-center p-8">
+            <section className="w-full py-20 px-14">
+                <footer className="flex flex-col md:flex-row justify-around items-center p-6">
 
                     {/* profile information link */}
                     <div className="flex flex-col space-y-4">
@@ -39,19 +39,19 @@ function Footer() {
                         <div className="mt-3">
                             <div className="flex items-center mt-2 ">
                                 <Mail className="text-blue-900 w-5 h-5" />
-                                <a className="ml-2 text-sm md:text-lg" href="#">alpha@apnacollege.in</a>
+                                <a className="ml-2 text-gray-700 text-sm md:text-lg" href="#">alpha@apnacollege.in</a>
                             </div>
                             <div className="flex items-center mt-2">
                                 <Mail className="text-blue-900 w-5 h-5" />
-                                <a className="ml-2 text-sm md:text-lg" href="#">delta@apnacollege.in</a>
+                                <a className="ml-2 text-gray-700 text-sm md:text-lg" href="#">delta@apnacollege.in</a>
                             </div>
                             <div className="flex items-center mt-2">
                                 <Mail className="text-blue-900 w-5 h-5" />
-                                <a className="ml-2 text-sm md:text-lg" href="#">sigma@apnacollege.in</a>
+                                <a className="ml-2 text-gray-700 text-sm md:text-lg" href="#">sigma@apnacollege.in</a>
                             </div>
                             <div className="flex items-center mt-2">
                                 <Phone className="text-blue-900 w-5 h-5" />
-                                <a className="ml-2 text-sm md:text-lg" href="#">Support Team : 10am-6pm</a>
+                                <a className="ml-2  text-sm md:text-lg" href="#">Support Team : 10am-6pm</a>
                             </div>
                         </div>
                     </div>
@@ -72,16 +72,14 @@ function Footer() {
                             YouTube <FaYoutube className="text-[#6674CC] w-5 h-5" />
                         </a>
                         <a className="text-[#6674CC] flex items-center gap-2" href="#">
-                            Twitter <FaTwitter  className="text-[#6674CC] w-5 h-5" />
+                            Twitter <FaTwitter className="text-[#6674CC] w-5 h-5" />
                         </a>
                     </div>
-
-
-
-
-
-
                 </footer>
+                {/* footer copyright text */}
+                <p className="text-md mt-8 text-center  text-gray-600">
+                    Copyright © 2025
+                </p>
             </section>
 
 
