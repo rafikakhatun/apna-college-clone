@@ -21,6 +21,7 @@ function App() {
     <JobCompanies></JobCompanies>
     <SelectedStudent></SelectedStudent>
     <TeachMillionsBanner></TeachMillionsBanner>
+    <Footer></Footer>
     
       
     </>

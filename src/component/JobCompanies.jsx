@@ -54,7 +54,7 @@ function JobCompanies() {
                 </div>
 
                 {/* line border */}
-                <div className="border border-gray-600 mt-12 opacity-80 cursor-pointer"></div>
+                <div className="border border-gray-600 mt-12 opacity-80 "></div>
             </section>
         </>
     );
