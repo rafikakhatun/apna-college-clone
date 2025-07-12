@@ -14,7 +14,7 @@ function Footer() {
         <>
 
             <section className="w-full py-20 px-14">
-                <footer className="flex flex-col md:flex-row justify-around items-center p-6">
+                <footer className="flex flex-col md:flex-row justify-evenly items-start p-6 space-y-8">
 
                     {/* profile information link */}
                     <div className="flex flex-col space-y-4">
