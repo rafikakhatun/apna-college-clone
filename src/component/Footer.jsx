@@ -1,4 +1,12 @@
-import { ChevronRight, Mail, Phone } from "lucide-react";
+import { ChevronRight,  Mail, Phone } from "lucide-react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaYoutube
+} from "react-icons/fa";
+
 import apnaCollegeLogo from "../assets/apna logo.png"
 
 function Footer() {
@@ -6,7 +14,7 @@ function Footer() {
         <>
 
             <section className="w-full py-20 px-">
-                <footer className="flex flex-col md:flex-row justify-between items-center">
+                <footer className="flex flex-col md:flex-row justify-around items-center p-8">
 
                     {/* profile information link */}
                     <div className="flex flex-col space-y-4">
@@ -48,10 +56,30 @@ function Footer() {
                         </div>
                     </div>
 
+                    {/* social media link */}
+                    <div className="flex flex-col">
+                        <p className="font-bold">CONNECT WITH US</p>
+                        <a className="text-[#6674CC] mt-3 flex items-center gap-2" href="#">
+                            Facebook  <FaFacebook className="text-[#6674CC] w-5 h-5" />
+                        </a>
+                        <a className="text-[#6674CC] flex items-center gap-2" href="#">
+                            Instagram <FaInstagram className="text-[#6674CC] w-5 h-5" />
+                        </a>
+                        <a className="text-[#6674CC] flex items-center gap-2" href="#">
+                            Linkedin <FaLinkedin className="text-[#6674CC] w-5 h-5" />
+                        </a>
+                        <a className="text-[#6674CC] flex items-center gap-2" href="#">
+                            YouTube <FaYoutube className="text-[#6674CC] w-5 h-5" />
+                        </a>
+                        <a className="text-[#6674CC] flex items-center gap-2" href="#">
+                            Twitter <FaTwitter  className="text-[#6674CC] w-5 h-5" />
+                        </a>
+                    </div>
 
 
 
-                    <div></div>
+
+
 
                 </footer>
             </section>
