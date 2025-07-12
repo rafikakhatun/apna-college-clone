@@ -1,6 +1,7 @@
 
 import './App.css'
 import CodingCommunity from './component/CodingCommunity';
+import Footer from './component/Footer';
 import Hero from './component/Hero';
 import JobCompanies from './component/JobCompanies';
 import Navbar from './component/Navbar';
