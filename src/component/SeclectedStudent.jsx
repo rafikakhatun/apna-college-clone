@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SelectedStudentData from "./SelectedStudentData";
+import { ChevronRight } from "lucide-react";
 
 function SelectedStudent() {
 
@@ -37,7 +38,7 @@ function SelectedStudent() {
 
     return (
         <>
-            <section className="py-16 px-10">
+            <section className="py-16 px-10 bg-[#F8F8Fd]">
                 {/* grid box */}
                 <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
 
@@ -49,6 +50,10 @@ function SelectedStudent() {
 
                    
                     
+                </div>
+
+                <div className="flex items-center justify-center py-10">
+                    <button className="bg-blue-800 text-white rounded-md px-10 py-4 text-lg flex cursor-pointer">See More<ChevronRight size={22} className="mt-1" /></button>
                 </div>
 
             </section>
