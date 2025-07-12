@@ -6,6 +6,7 @@ import JobCompanies from './component/JobCompanies';
 import Navbar from './component/Navbar';
 import NewPlacementSection from './component/NewPlacementSection';
 import SelectedStudent from './component/SeclectedStudent';
+import TeachMillionsBanner from './component/TeachMillionsBanner';
 
 function App() {
  
@@ -19,7 +20,8 @@ function App() {
     <NewPlacementSection></NewPlacementSection>
     <JobCompanies></JobCompanies>
     <SelectedStudent></SelectedStudent>
-   
+    <TeachMillionsBanner></TeachMillionsBanner>
+    
       
     </>
   )

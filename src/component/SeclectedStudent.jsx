@@ -38,7 +38,7 @@ function SelectedStudent() {
 
     return (
         <>
-            <section className="py-16 px-10 bg-[#F8F8Fd]">
+            <section className="py-10 px-10 bg-[#F8F8Fd]">
                 {/* grid box */}
                 <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
 
