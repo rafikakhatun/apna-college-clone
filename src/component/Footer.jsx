@@ -77,7 +77,7 @@ function Footer() {
                     </div>
                 </footer>
                 {/* footer copyright text */}
-                <p className="text-md mt-8 text-center  text-gray-600">
+                <p className="text-md mt-7 text-center  text-gray-600">
                     Copyright © 2025
                 </p>
             </section>
