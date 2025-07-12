@@ -1,3 +1,4 @@
+import { ChevronRight, Mail, Phone } from "lucide-react";
 import apnaCollegeLogo from "../assets/apna logo.png"
 
 function Footer() {
@@ -16,17 +17,40 @@ function Footer() {
                     </div>
 
                     {/* helpful links */}
-                    <div className="flex flex-col">
+                    <div className="flex flex-col ">
                         <p className="text-[#6674CC] font-bold">HELPFUL LINKS</p>
-                        <a className="text-[#6674CC] mt-2" href="#">Courses</a>
-                        <a className="text-[#6674CC] mt-2" href="#">Privacy Policy</a>
-                        <a className="text-[#6674CC] mt-2" href="#">Refund Policy</a>
-                        <a className="text-[#6674CC] mt-2" href="#">Terms & Conditions</a>
+                        <a className="text-[#6674CC] mt-2 flex text-sm md:text-lg" href="#"> <ChevronRight />Courses</a>
+                        <a className="text-[#6674CC] mt-2 flex text-sm md:text-lg" href="#"> <ChevronRight />Privacy Policy</a>
+                        <a className="text-[#6674CC] mt-2 flex text-sm md:text-lg" href="#"> <ChevronRight />Refund Policy</a>
+                        <a className="text-[#6674CC] mt-2 flex text-sm md:text-lg" href="#"> <ChevronRight />Terms & Conditions</a>
+                    </div>
+                    {/* this is gmail-id link */}
+                    <div className="flex flex-col">
+                        <p className="font-bold">GET IN TOUCH</p>
+
+                        <div className="mt-3">
+                            <div className="flex items-center mt-2 ">
+                                <Mail className="text-blue-900 w-5 h-5" />
+                                <a className="ml-2 text-sm md:text-lg" href="#">alpha@apnacollege.in</a>
+                            </div>
+                            <div className="flex items-center mt-2">
+                                <Mail className="text-blue-900 w-5 h-5" />
+                                <a className="ml-2 text-sm md:text-lg" href="#">delta@apnacollege.in</a>
+                            </div>
+                            <div className="flex items-center mt-2">
+                                <Mail className="text-blue-900 w-5 h-5" />
+                                <a className="ml-2 text-sm md:text-lg" href="#">sigma@apnacollege.in</a>
+                            </div>
+                            <div className="flex items-center mt-2">
+                                <Phone className="text-blue-900 w-5 h-5" />
+                                <a className="ml-2 text-sm md:text-lg" href="#">Support Team : 10am-6pm</a>
+                            </div>
+                        </div>
                     </div>
 
 
 
-                    <div></div>
+
                     <div></div>
 
                 </footer>
