@@ -37,7 +37,7 @@ function Navbar() {
             {/* log in button */}
             <li><Link to="/login">Log in</Link></li>
             {/* sign up button */}
-            <button onClick={()=>setIsOpenSignUp(true)} className='px-3 py-1 border-2 border-[#6674cc] text-[#6674cc] rounded-md'>Sign up</button>
+            <button onClick={()=>setIsOpenSignUp(true)} className='px-3 py-1 border-2 border-[#6674cc] text-[#6674cc] rounded-md cursor-pointer'>Sign up</button>
           </ul>
           {/* hamburger toggle icon */}
 
