@@ -6,6 +6,7 @@ function SignUpModal({isOpen,onClose}){
 
     return(
         <>
+       
         {/* here design overlay modal div */}
         <button onClick={onClose} >close</button>
         <div>hello i am signup button</div>

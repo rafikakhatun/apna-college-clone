@@ -1,13 +1,13 @@
 import { AlignJustify, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import SignUpModal from './SignUpModal';
+import SignUpModal from '../modals/SignUpModal';
 
 function Navbar() {
 
   // responsive navbar useState
 
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   // signup button usestate
 
