@@ -21,6 +21,7 @@ function Navbar() {
 
 
 
+
   return (
     <>
       <section className='py-2 px-6 shadow border-b border-gray-100 w-full bg-white fixed '>
