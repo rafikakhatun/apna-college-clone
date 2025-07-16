@@ -69,7 +69,7 @@ function Navbar() {
         <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>New Sigma 8.0</li>
         <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>DSA Sheet</li>
         <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>New Courses</li>
-        <li className='text-2xl text-[#6674cc] cursor-pointer font-light'>Log in</li>
+        <button onClick={()=> setIsOpenLogin(true)} className='text-2xl text-[#6674cc] cursor-pointer font-light'>Log in</button>
         <button onClick={()=>setIsOpenSignUp(true)}  className='text-2xl text-[#6674cc] cursor-pointer font-light'>Sign up</button>
 
 
