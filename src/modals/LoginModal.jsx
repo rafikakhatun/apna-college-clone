@@ -10,7 +10,7 @@ function LoginModal({ isOpenLoginModal, onCloseLoginModal }) {
             {/* overlay */}
             <div className="fixed bg-black/80 inset-0 bg-opacity-70 flex justify-center items-center z-50">
                 {/*modal box*/}
-                <div className="p-8 shadow w-[90%] max-w-md bg-black text-white relative">
+                <div className="p-8 shadow w-[80%] max-w-md bg-black text-white relative">
                     {/* close button */}
                     <button onClick={onCloseLoginModal} className="absolute top-4 right-4 text-neutral-500 hover:text-neutral-400 text-xl font-bold">
                         <X size={24} />
@@ -28,6 +28,21 @@ function LoginModal({ isOpenLoginModal, onCloseLoginModal }) {
                             <label className="block mb-2 text-sm" htmlFor="">Your password</label>
                             <input type="password"  placeholder="Password" className="w-full px-4 py-2 bg-neutral-800  outline-none  placeholder:text-neutral-500 placeholder:text-xs" />
                         </div>
+
+                        {/* login button */}
+
+                        <button type="submit" className="w-full bg-[#6674cc] hover:bg-indigo-600 text-white py-2 font-semibold">
+                            Login
+                        </button>
+
+                        {/* Bottom Links */}
+                        <div className="flex justify-between mt-2 text-sm text-[#6674cc] underline">
+                            <a href="#">Sign in with your account</a>
+                            <a href="#">Forgot your password?</a>
+                        </div>
+
+                      
+
 
                     </form>
 
