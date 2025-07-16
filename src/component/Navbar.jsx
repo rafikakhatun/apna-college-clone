@@ -9,9 +9,13 @@ function Navbar() {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  // signup button usestate
+  // modal signup button usestate
 
   const [isOpenSignUp,setIsOpenSignUp] = useState(false);
+
+  // modal  Login usestate
+
+  const [isOpenLogin,setIsOpenLogin] = useState(false)
 
 
 
@@ -68,7 +72,7 @@ function Navbar() {
 
       </ul>)}
 
-      {/* modal show condition */}
+      {/* signup  modal show condition */}
       <SignUpModal isOpen={isOpenSignUp} onClose={()=>setIsOpenSignUp(false)} ></SignUpModal>
       
 
