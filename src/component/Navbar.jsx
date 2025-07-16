@@ -2,6 +2,7 @@ import { AlignJustify, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SignUpModal from '../modals/SignUpModal';
+import LoginModal from '../modals/LoginModal';
 
 function Navbar() {
 
@@ -38,8 +39,10 @@ function Navbar() {
             <li className='bg-[#6674cc] hover:bg-indigo-500 text-white py-2 px-6 rounded-md '><Link to="/sigma">New Sigma 8.0</Link></li>
             <li><Link to="/dsa-sheet">DSA Sheet</Link></li>
             <li><Link to="/new-course">New Course</Link></li>
+
             {/* log in button */}
-            <li><Link to="/login">Log in</Link></li>
+            <button onClick={()=>setIsOpenLogin(true)}>Log in</button>
+
             {/* sign up button */}
             <button onClick={()=>setIsOpenSignUp(true)} className='px-3 py-1 border-2 border-[#6674cc] text-[#6674cc] rounded-md cursor-pointer'>Sign up</button>
           </ul>
@@ -74,6 +77,7 @@ function Navbar() {
 
       {/* signup  modal show condition */}
       <SignUpModal isOpen={isOpenSignUp} onClose={()=>setIsOpenSignUp(false)} ></SignUpModal>
+      <LoginModal isOpenLoginModal={isOpenLogin} onCloseLoginModal={()=>setIsOpenLogin(false)}></LoginModal>
       
 
 
