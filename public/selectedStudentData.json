@@ -7,8 +7,8 @@
     "batch": "Alpha Student",
     "company": "Microsoft (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 1.jpg",
-    "companyLogo": "microsoft logo.jpg"
+    "profileImage": "src/assets/apna college 1.jpg",
+    "companyLogo": "src/assets/microsoft logo.jpg"
   },
   {
     "id": 2,
@@ -18,8 +18,8 @@
     "batch": "Alpha Student",
     "company": "Google (intern)",
     "stipend": "Rs 5lakh+/month",
-    "profileImage": "apna college 2.jpg",
-    "companyLogo": "google logo.png"
+    "profileImage": "src/assets/apna college 2.jpg",
+    "companyLogo": "src/assets/google logo.png"
   },
   {
     "id": 3,
@@ -29,8 +29,8 @@
     "batch": "Alpha Student",
     "company": "Amazon (intern)",
     "stipend": "Rs 3.7k+/month",
-    "profileImage": "apna college 3.jpg",
-    "companyLogo": "amazonlogo.png"
+    "profileImage": "src/assets/apna college 3.jpg",
+    "companyLogo": "src/assets/amazonlogo.png"
   },
   {
     "id": 4,
@@ -40,8 +40,8 @@
     "batch": "Alpha Student",
     "company": "Samsung (intern)",
     "stipend": "Rs 60k/month",
-    "profileImage": "apna college 4.avif",
-    "companyLogo": "Samsung-Logo.jpg"
+    "profileImage": "src/assets/apna college 4.avif",
+    "companyLogo": "src/assets/Samsung-Logo.jpg"
   },
   {
     "id": 5,
@@ -51,8 +51,8 @@
     "batch": "Alpha Student",
     "company": "Paypal (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 5.jpg",
-    "companyLogo": "paypal logo.png"
+    "profileImage": "src/assets/apna college 7.jpeg",
+    "companyLogo": "src/assets/google logo.png"
   },
   {
     "id": 6,
@@ -62,8 +62,8 @@
     "batch": "Alpha Student",
     "company": "JPMorgan (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 5.webp",
-    "companyLogo": "jpmorgan logo.png"
+    "profileImage": "src/assets/apna college 5.jpg",
+    "companyLogo": "src/assets/google logo.png"
   },
   {
     "id": 7,
@@ -73,8 +73,8 @@
     "batch": "Alpha Student",
     "company": "Dell (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 6.webp",
-    "companyLogo": "dell logo.png"
+    "profileImage": "src/assets/apna college 6.webp",
+    "companyLogo": "src/assets/dell logo.png"
   },
   {
     "id": 8,
@@ -84,8 +84,8 @@
     "batch": "Alpha Student",
     "company": "EY (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 7.jpeg",
-    "companyLogo": "ey logo.png"
+    "profileImage": "src/assets/apna college 8.jpeg",
+    "companyLogo": "src/assets/google logo.png"
   },
   {
     "id": 9,
@@ -106,8 +106,8 @@
     "batch": "Alpha Student",
     "company": "Hitachi (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 9.jpeg",
-    "companyLogo": "HITACHI LOGO.png"
+    "profileImage": "src/assets/apna college 9.jpeg",
+    "companyLogo": "src/assets/HITACHI LOGO.png"
   },
   {
     "id": 11,
@@ -117,8 +117,8 @@
     "batch": "Alpha Student",
     "company": "IBM (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 10.jpeg",
-    "companyLogo": "ibm logo.png"
+    "profileImage": "src/assets/apna college 10.jpeg",
+    "companyLogo": "src/assets/ibm logo.png"
   },
   {
     "id": 12,
@@ -128,8 +128,8 @@
     "batch": "Alpha Student",
     "company": "Mercedes (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 11.jpeg",
-    "companyLogo": "mercedes logo.png"
+    "profileImage": "src/assets/apna college 11.jpeg",
+    "companyLogo": "src/assets/mercedes logo.png"
   },
   {
     "id": 13,
@@ -139,8 +139,8 @@
     "batch": "Alpha Student",
     "company": "NetApp (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 12.jpeg",
-    "companyLogo": "netapp logo.png"
+    "profileImage": "src/assets/apna college 12.jpeg",
+    "companyLogo": "src/assets/netapp logo.png"
   },
   {
     "id": 14,
@@ -150,8 +150,8 @@
     "batch": "Alpha Student",
     "company": "Salesforce (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 13.jpeg",
-    "companyLogo": "salesforce logo.jpg"
+    "profileImage": "src/assets/apna college 13.jpeg",
+    "companyLogo": "src/assets/salesforce logo.jpg"
   },
   {
     "id": 15,
@@ -161,8 +161,8 @@
     "batch": "Alpha Student",
     "company": "Google (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 14.jpeg",
-    "companyLogo": "google logo.png"
+    "profileImage": "src/assets/apna college 14.jpeg",
+    "companyLogo": "src/assets/google logo.png"
   },
   {
     "id": 16,
@@ -172,7 +172,7 @@
     "batch": "Alpha Student",
     "company": "Paypal (intern)",
     "stipend": "Rs 1lakh+/month",
-    "profileImage": "apna college 15.jpeg",
-    "companyLogo": "paypal logo.png"
+    "profileImage": "src/assets/apna college 15.jpeg",
+    "companyLogo": "src/assets/paypal logo.png"
   }
 ]

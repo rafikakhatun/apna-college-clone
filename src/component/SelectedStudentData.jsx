@@ -18,7 +18,7 @@ function SelectedStudentData({ userData }) {
                     {/* candidate profile section */}
                     <div className="flex justify-between mt-6">
                         <div>
-                            <img className="rounded-full w-32 h-32 ml-3" src={userData?.profileImage} alt="photo" />
+                            <img className="rounded-full w-32 h-32 ml-3 bg-white" src={userData?.profileImage} alt="photo" />
                         </div>
                         <div className="w-7/12 h-32 rounded-s-xl bg-white">
                             <p className="mt-2 ml-4">Name : {userData?.name}</p>
@@ -36,7 +36,7 @@ function SelectedStudentData({ userData }) {
 
                 {/* company logo section */}
                 <div className="w-full">
-                    <img className="ml-16 mt-2" src={userData?.companyLogo} alt="Google" width="230" height="230" />
+                    <img className="ml-16 mt-2 " src={userData?.companyLogo} alt="Google" width="230" height="150" />
                 </div>
             </div>
 

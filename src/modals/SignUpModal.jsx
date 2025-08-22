@@ -48,6 +48,7 @@ function SignUpModal({ isOpen, onClose }) {
                         <button type="submit" className="w-full bg-[#6674cc] hover:bg-indigo-600 text-white py-2 font-semibold">
                             Start your learning journey
                         </button>
+                        
                         {/* Bottom Links */}
                         <div className="flex justify-between mt-4 text-sm text-[#6674cc] underline">
                             <a href="#">Sign in with your account</a>
