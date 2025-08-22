@@ -4,7 +4,7 @@ import ShradhaKhapra from "../assets/Shradha Khapra.jpeg";
 function Hero() {
     return (
         <>
-            <section className="py-24 px-20  bg-gradient-to-r from-white via-white to-[#CDD1EE]" data-aos="fade-up">
+            <section className="  py-24 px-20  bg-gradient-to-r from-white via-white to-[#CDD1EE]" data-aos="fade-up">
                 <div className="flex flex-col gap-6 md:flex-row justify-between  items-center" data-aos="fade-up">
                     <div className="space-y-5" data-aos="fade-right">
                         <p className="text-2xl md:text-4xl font-semibold" data-aos="fade-up">Learn & become the <br />

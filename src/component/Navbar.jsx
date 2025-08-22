@@ -29,8 +29,8 @@ function Navbar() {
 
   return (
     <>
-      <section className='py-2 px-6 shadow border-b border-gray-100 w-full bg-white fixed '>
-        <nav className='flex justify-between items-center px-1 md:px-6'>
+      <section className='py-2 px-6 shadow border-b border-gray-100 w-full bg-white relative '>
+        <nav className='flex justify-between items-center px-1 md:px-6 '>
           <img className="w-26 h-14" data-aos="fade-up" src="src/assets/apna logo.png" alt="" />
 
           {/* Desktop Menu */}
