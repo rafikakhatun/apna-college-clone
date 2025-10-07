@@ -8,7 +8,7 @@
     "company": "Microsoft (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 1.jpg",
-    "companyLogo": "src/assets/microsoft logo.jpg"
+    "companyLogo": "src/assets/microsoft_logo-removebg-preview.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "company": "Google (intern)",
     "stipend": "Rs 5lakh+/month",
     "profileImage": "src/assets/apna college 2.jpg",
-    "companyLogo": "src/assets/google logo.png"
+    "companyLogo": "src/assets/google_logo-removebg-preview.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "company": "Amazon (intern)",
     "stipend": "Rs 3.7k+/month",
     "profileImage": "src/assets/apna college 3.jpg",
-    "companyLogo": "src/assets/amazonlogo.png"
+    "companyLogo": "src/assets/amazonlogo-removebg-preview.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "company": "Samsung (intern)",
     "stipend": "Rs 60k/month",
     "profileImage": "src/assets/apna college 4.avif",
-    "companyLogo": "src/assets/Samsung-Logo.jpg"
+    "companyLogo": "src/assets/Samsung-Logo-removebg-preview.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "company": "Paypal (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 7.jpeg",
-    "companyLogo": "src/assets/google logo.png"
+    "companyLogo": "src/assets/google_logo-removebg-preview.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "company": "JPMorgan (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 5.jpg",
-    "companyLogo": "src/assets/google logo.png"
+    "companyLogo": "src/assets/google_logo-removebg-preview.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "company": "Dell (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 6.webp",
-    "companyLogo": "src/assets/dell logo.png"
+    "companyLogo": "src/assets/dell_logo-removebg-preview.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "company": "EY (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 8.jpeg",
-    "companyLogo": "src/assets/google logo.png"
+    "companyLogo": "src/assets/google_logo-removebg-preview.png"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "company": "Goldman Sachs (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "apna college 8.jpeg",
-    "companyLogo": "Goldman-Sachs-Logo.png"
+    "companyLogo": "src/assets/Goldman-Sachs-Logo-removebg-preview.png"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "company": "Hitachi (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 9.jpeg",
-    "companyLogo": "src/assets/HITACHI LOGO.png"
+    "companyLogo": "src/assets/HITACHI_LOGO-removebg-preview.png"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "company": "IBM (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 10.jpeg",
-    "companyLogo": "src/assets/ibm logo.png"
+    "companyLogo": "src/assets/ibm_logo-removebg-preview.png"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "company": "Mercedes (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 11.jpeg",
-    "companyLogo": "src/assets/mercedes logo.png"
+    "companyLogo": "src/assets/mercedes_logo-removebg-preview.png"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "company": "NetApp (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 12.jpeg",
-    "companyLogo": "src/assets/netapp logo.png"
+    "companyLogo": "src/assets/netapp_logo-removebg-preview.png"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "company": "Salesforce (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 13.jpeg",
-    "companyLogo": "src/assets/salesforce logo.jpg"
+    "companyLogo": "src/assets/salesforce_logo-removebg-preview.png"
   },
   {
     "id": 15,
@@ -162,7 +162,7 @@
     "company": "Google (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 14.jpeg",
-    "companyLogo": "src/assets/google logo.png"
+    "companyLogo": "src/assets/google_logo-removebg-preview.png"
   },
   {
     "id": 16,
@@ -173,6 +173,6 @@
     "company": "Paypal (intern)",
     "stipend": "Rs 1lakh+/month",
     "profileImage": "src/assets/apna college 15.jpeg",
-    "companyLogo": "src/assets/paypal logo.png"
+    "companyLogo": "src/assets/paypal_logo-removebg-preview.png"
   }
 ]
