@@ -34,17 +34,17 @@ function Navbar() {
           <img className="w-26 h-14" data-aos="fade-up" src="src/assets/apna logo.png" alt="" />
 
           {/* Desktop Menu */}
-          <ul className='md:flex lg:flex hidden gap-6 text-lg'>
-            <li data-aos="fade-up"><Link to="/results">Our Results</Link></li>
-            <li data-aos="fade-up" className='bg-[#6674cc] hover:bg-indigo-500 text-white py-2 px-6 rounded-md '><Link to="/sigma">New Sigma 8.0</Link></li>
-            <li data-aos="fade-up"><Link to="/dsa-sheet">DSA Sheet</Link></li>
-            <li data-aos="fade-up"><Link to="/new-course">New Course</Link></li>
+          <ul className='md:flex lg:flex justify-center items-center hidden gap-6 text-lg'>
+            <li className="text-md " data-aos="fade-up"><Link to="/results">Our Results</Link></li>
+            <li data-aos="fade-up" className='bg-[#6674cc] hover:bg-indigo-500 text-white py-2 px-6 rounded-md text-md'><Link to="/sigma">New Sigma 8.0</Link></li>
+            <li className="text-md" data-aos="fade-up"><Link to="/dsa-sheet">DSA Sheet</Link></li>
+            <li className="text-md" data-aos="fade-up"><Link to="/new-course">New Course</Link></li>
 
             {/* log in button */}
-            <button onClick={()=>setIsOpenLogin(true)} data-aos="fade-up">Log in</button>
+            <button className='text-md' onClick={()=>setIsOpenLogin(true)} data-aos="fade-up">Log in</button>
 
             {/* sign up button */}
-            <button onClick={()=>setIsOpenSignUp(true)} className='px-3 py-1 border-2 border-[#6674cc] text-[#6674cc] rounded-md cursor-pointer' data-aos="fade-up">Sign up</button>
+            <button onClick={()=>setIsOpenSignUp(true)} className='px-3 py-1 text-md border-2 border-[#6674cc] text-[#6674cc] rounded-md cursor-pointer' data-aos="fade-up">Sign up</button>
           </ul>
           {/* hamburger toggle icon */}
 
