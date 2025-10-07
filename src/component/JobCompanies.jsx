@@ -1,21 +1,21 @@
-import amazon from "../assets/amazonlogo.png";
-import google from "../assets/google logo.png";
-import microsoft from "../assets/microsoft logo.jpg";
-import goldman from "../assets/Goldman-Sachs-Logo.png";
-import paypal from "../assets/paypal logo.png";
-import samsung from "../assets/Samsung-Logo.jpg";
-import salesforce from "../assets/salesforce logo.jpg";
-import netapp from "../assets/netapp logo.png";
-import hitachi from "../assets/HITACHI LOGO.png";
-import jpmorgan from "../assets/jpmorgan logo.png";
-import ibm from "../assets/ibm logo.png";
-import dell from "../assets/dell logo.png";
-import deloitte from "../assets/deolitte logo.jpeg";
-import kpmg from "../assets/kpmg logo.png";
-import mercedes from "../assets/mercedes logo.png";
-import ey from "../assets/ey logo.png";
-import airtel from "../assets/airtel logo.png";
-import tcs from "../assets/tcs2 logo.png";
+import amazon from "../assets/amazonlogo-removebg-preview.png";
+import google from "../assets/google_logo-removebg-preview.png";
+import microsoft from "../assets/microsoft_logo-removebg-preview.png";
+import goldman from "../assets/Goldman-Sachs-Logo-removebg-preview.png";
+import paypal from "../assets/paypal_logo-removebg-preview.png";
+import samsung from "../assets/Samsung-Logo-removebg-preview.png";
+import salesforce from "../assets/salesforce_logo-removebg-preview.png";
+import netapp from "../assets/netapp_logo-removebg-preview.png";
+import hitachi from "../assets/HITACHI_LOGO-removebg-preview.png";
+import jpmorgan from "../assets/jpmorgan_logo-removebg-preview (1).png";
+import ibm from "../assets/ibm_logo-removebg-preview.png";
+import dell from "../assets/dell_logo-removebg-preview.png";
+import deloitte from "../assets/deolitte_logo-removebg-preview.png";
+import kpmg from "../assets/kpmg_logo-removebg-preview.png";
+import mercedes from "../assets/mercedes_logo-removebg-preview.png";
+import ey from "../assets/ey_logo-removebg-preview.png";
+import airtel from "../assets/airtel_logo-removebg-preview.png";
+import tcs from "../assets/tcs2_logo-removebg-preview.png";
 
 function JobCompanies() {
     return (
