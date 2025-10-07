@@ -6,7 +6,7 @@ function Hero() {
         <>
             <section className="  py-24 px-20  bg-gradient-to-r from-white via-white to-[#CDD1EE]" data-aos="fade-up">
                 <div className="flex flex-col gap-6 md:flex-row justify-between  items-center" data-aos="fade-up">
-                    <div className="space-y-5" data-aos="fade-right">
+                    <div className="space-y-6" data-aos="fade-right">
                         <p className="text-2xl md:text-4xl font-semibold" data-aos="fade-up">Learn & become the <br />
                             <span className="font-semibold text-[#354Ac5] block mt-2" data-aos="zoom-in">Top 1% software developer</span>
                         </p>
