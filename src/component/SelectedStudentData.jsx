@@ -52,13 +52,12 @@ function SelectedStudentData({ userData }) {
                 </div>
 
                 {/* company logo section */}
-                <div className="w-full" data-aos="zoom-in">
+                <div className="w-full flex justify-center items-center" data-aos="zoom-in">
                     <img 
-                        className="ml-16 mt-2 " 
+                        className="w-32 h-28 object-contain" 
                         src={userData?.companyLogo} 
                         alt="Google" 
-                        width="230" 
-                        height="150" 
+                       
                     />
                 </div>
             </div>
