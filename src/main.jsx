@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // AOS import
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import DsaSheet from './navbarPage/DsaSheet.jsx'
 
 AOS.init({
   duration: 1000,  
@@ -21,7 +22,14 @@ const route = createBrowserRouter([
 {
   path:"/",
   element:<App></App>
+},
+
+{
+  path:"/dsa-Sheet",
+  element:<DsaSheet></DsaSheet>
 }
+
+
 
 
 

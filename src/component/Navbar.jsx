@@ -37,8 +37,8 @@ function Navbar() {
           <ul className='md:flex lg:flex justify-center items-center hidden gap-6 text-lg'>
             <li className="text-md " data-aos="fade-up"><Link to="/results">Our Results</Link></li>
             <li data-aos="fade-up" className='bg-[#6674cc] hover:bg-indigo-500 text-white py-2 px-6 rounded-md text-md'><Link to="/sigma">New Sigma 8.0</Link></li>
-            <li className="text-md" data-aos="fade-up"><Link to="/dsa-sheet">New Course</Link></li>
-            <li className="text-md" data-aos="fade-up"><Link to="/new-course">DSA Sheet</Link></li>
+            <li className="text-md" data-aos="fade-up"><Link to="">New Course</Link></li>
+            <li className="text-md" data-aos="fade-up"><Link to="/dsa-Sheet">DSA Sheet</Link></li>
 
             {/* log in button */}
             <button className='text-md' onClick={()=>setIsOpenLogin(true)} data-aos="fade-up">Log in</button>
@@ -68,7 +68,7 @@ function Navbar() {
         <li data-aos="fade-up" className='text-2xl text-[#6674cc] cursor-pointer font-light'>Our Result</li>
         <li data-aos="fade-up" className='text-2xl text-[#6674cc] cursor-pointer font-light'>New Sigma 8.0</li>
         <li data-aos="fade-up" className='text-2xl text-[#6674cc] cursor-pointer font-light'>New Courses</li>
-        <li data-aos="fade-up" className='text-2xl text-[#6674cc] cursor-pointer font-light'>DSA Sheet</li>
+        <li data-aos="fade-up" className='text-2xl text-[#6674cc] cursor-pointer font-light'><Link to="/dsa-Sheet">DSA Sheet</Link></li>
         <button onClick={()=> setIsOpenLogin(true)} className='text-2xl text-[#6674cc] cursor-pointer font-light' data-aos="fade-up">Log in</button>
         <button onClick={()=>setIsOpenSignUp(true)}  className='text-2xl text-[#6674cc] cursor-pointer font-light' data-aos="fade-up">Sign up</button>
 
