@@ -8,6 +8,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import DsaSheet from './navbarPage/DsaSheet.jsx'
 import OurResult from './navbarPage/OurResult.jsx'
+import NewCourse from './navbarPage/NewCourse.jsx'
 
 AOS.init({
   duration: 1000,  
@@ -33,7 +34,14 @@ const route = createBrowserRouter([
 {
   path:"/Our-Result",
   element:<OurResult></OurResult>
+},
+
+{
+  path:"/NewCourse",
+  element:<NewCourse></NewCourse>
 }
+
+
 
 
 
