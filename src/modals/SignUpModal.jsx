@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { X } from "lucide-react";
+import Swal from "sweetalert2"; //  Import SweetAlert2
 
 function SignUpModal({ isOpen, onClose }) {
     if (!isOpen) return null;
@@ -13,7 +14,7 @@ function SignUpModal({ isOpen, onClose }) {
 
     const [errors, setErrors] = useState({});
 
-    // ✅ Regex Patterns
+    //  Regex Patterns
     const regex = {
         name: /^[A-Za-z\s]{3,}$/, // At least 3 letters, only alphabets and spaces
         email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, // Standard email format
@@ -21,13 +22,13 @@ function SignUpModal({ isOpen, onClose }) {
         phone: /^[6-9]\d{9}$/ // 10-digit Indian phone number starting with 6-9
     };
 
-    // ✅ Input Handler
+    //  Input Handler
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
         setErrors({ ...errors, [e.target.name]: "" }); // Clear error when typing
     };
 
-    // ✅ Form Submit Handler
+    //  Form Submit Handler
     const handleSubmit = (e) => {
         e.preventDefault();
         let newErrors = {};
@@ -50,7 +51,21 @@ function SignUpModal({ isOpen, onClose }) {
             return;
         }
 
-        alert("✅ Form submitted successfully!");
+        //  SweetAlert Success Message
+        Swal.fire({
+            title: "Success!",
+            text: "Form submitted successfully!",
+            icon: "success",
+            confirmButtonColor: "#6674cc"
+        });
+
+        // Optionally clear form after success
+        setFormData({
+            name: "",
+            email: "",
+            password: "",
+            phone: ""
+        });
     };
 
     return (
