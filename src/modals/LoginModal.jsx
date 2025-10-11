@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { X } from "lucide-react";
+import Swal from "sweetalert2"; //  Import SweetAlert
 
 function LoginModal({ isOpenLoginModal, onCloseLoginModal }) {
     if (!isOpenLoginModal) {
@@ -13,19 +14,19 @@ function LoginModal({ isOpenLoginModal, onCloseLoginModal }) {
 
     const [errors, setErrors] = useState({});
 
-    // ✅ Regex Patterns
+    //  Regex Patterns
     const regex = {
         email: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, // Standard email format
         password: /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&]).{6,}$/ // 6+ chars, one number & one special char
     };
 
-    // ✅ Input Change Handler
+    //  Input Change Handler
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
         setErrors({ ...errors, [e.target.name]: "" }); // Clear specific error while typing
     };
 
-    // ✅ Form Submit Handler
+    //  Form Submit Handler
     const handleSubmit = (e) => {
         e.preventDefault();
         let newErrors = {};
@@ -42,7 +43,13 @@ function LoginModal({ isOpenLoginModal, onCloseLoginModal }) {
             return;
         }
 
-        alert("Login Successful!");
+        //  SweetAlert instead of normal alert
+        Swal.fire({
+            icon: "success",
+            title: "Login Successful!",
+            text: "Welcome back to Apna College!",
+            confirmButtonColor: "#6674cc"
+        });
     };
 
     return (
