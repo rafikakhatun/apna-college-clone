@@ -4,11 +4,11 @@ import Footer from '../component/Footer';
 
 const OurResult = () => {
     return (
-       <>
-<Navbar></Navbar>
-       <h1 className='text-center text-indigo-600 font-bold text-2xl mt-50'>hello i am OurResult page</h1>
-       <Footer></Footer>
-       </>
+        <>
+            <Navbar></Navbar>
+            <h1 className='text-center text-indigo-600 font-bold text-2xl mt-50'>hello i am OurResult page</h1>
+            <Footer></Footer>
+        </>
     );
 };
 
